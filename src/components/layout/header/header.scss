@@ -1,0 +1,28 @@
+.header {
+    padding: 20px 0;
+    background: black;
+    color: white;
+    &__middle {
+        ul {
+            gap: 25px;
+
+        }
+    }
+
+    &__btns {
+        button {
+            font-weight: 600;
+            color: white;
+            padding: 10px;
+            background: rgb(30, 144, 255);
+            border: 1px solid transparent;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background: white;
+            border:1px solid rgb(30, 144, 255);
+            color: rgb(30, 144, 255);
+        }
+    }
+} 
